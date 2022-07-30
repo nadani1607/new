@@ -1,0 +1,68 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.btn {
+    padding: 30px 15px;
+    background-color: hotpink;
+    border: 1px solid white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+
+.btn:hover {
+    background-color: black;
+    color: brown;
+    border-radius: 10px;
+}
+
+.inpt {
+    padding: 30px 15px;
+    border: 1px solid pink;
+    font-size: 35px;
+}
+
+.inpt:focus {
+    border: 2px brown;
+}
+
+.box {
+    border: 3px rebeccapurple solid;
+    width: 160px;
+    height: 160px;
+    margin: 50px 0;
+}
+
+.box::before {
+    content: 'Privet';
+    font-size: 20px;
+    color: coral;
+    border: 2px forestgreen solid;
+}
+
+.box::after {
+    content: 'Goodbye';
+    font-size: 20px;
+    color: coral;
+    border: 2px steelblue solid;
+}
+
+.box1 {
+    width: 600px;
+    height: 200vh;
+    border: 3px plum solid;
+    margin-top: 80px;
+    position: relative;
+}
+
+.little__stick {
+    width: 150px;
+    height: 150px;
+    border: 2px seagreen solid;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
